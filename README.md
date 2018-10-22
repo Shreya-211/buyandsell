@@ -10,6 +10,7 @@ Important file and folder:
 
 ## Running the program
 
-After cloning to your desired location in your system, go the the directory of the project from console and run `npm install`. This command will install all the module and add `node_modules` folder in the project. After that run `npm run build` command. This command will first build your project which will automatically create a `dist` folder in the project and after completing the execution of building application it will automatically run `node server` command that run the node server.
+After cloning to your desired location in your system, go the the directory of the project from console and run `npm install`. If you confront "npm ERR write after end" error, try this: 'npm install -g npm@latest' .
+This command will install all the module and add `node_modules` folder in the project. After that run `npm run build` command. This command will first build your project which will automatically create a `dist` folder in the project and after completing the execution of building application it will automatically run `node server` command that run the node server.
 
 Now navigate to `http://localhost:3000/` which is our home page.
