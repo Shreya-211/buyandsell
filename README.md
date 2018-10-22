@@ -1,27 +1,15 @@
 # Buyandsell
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
+Nodejs is setup for the backend of the project.
+Important file and folder:
+`server.js` : This is nodejs file that has express server
+`server\routes\api.js` : This is api that is used by the font-end to communicate with back-end
+`src\app` : This folder contain components of the applications
+`src\app\app-routing.module.ts` : This file contains routings of the application and decides which components is displayed in which routing.
 
-## Development server
+## Running the program
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+After cloning to your desired location in your system, go the the directory of the project from console and run `npm install`. This command will install all the module and add `node_modules` folder in the project. After that run `npm run build` command. This command will first build your project which will automatically create a `dist` folder in the project and after completing the execution of building application it will automatically run `node server` command that run the node server.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Now navigate to `http://localhost:3000/` which is our home page.
