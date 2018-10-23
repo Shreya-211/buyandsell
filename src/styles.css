@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.gdsd-btn{
+	background-color: #0ca071;
+	border-radius: 0px !important;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 542px;
+    text-align: center;
+}
+
+.gdsd-btn:hover{
+	background-color: #1F5846;
+}
+
+.gdsd-btn a{
+	color: #ffffff !important;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.gdsd-btn a:hover{
+	text-decoration: none;
+}
