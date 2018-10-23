@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 
 import { AppRoutingModule } from './app-routing.module';
 import { KhimProfileComponent } from './khim-profile/khim-profile.component';
+import { BehzadProfileComponent } from './behzad-profile/behzad-profile.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { KhimProfileComponent } from './khim-profile/khim-profile.component';
     HeaderComponent,
     OurTeamComponent,
     PageNotFoundComponent,
-    KhimProfileComponent
+    KhimProfileComponent,
+    BehzadProfileComponent
   ],
   imports: [
     BrowserModule,
