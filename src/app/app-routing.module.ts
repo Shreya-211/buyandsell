@@ -6,6 +6,7 @@ import { OurTeamComponent } from './our-team/our-team.component';
 import { KhimProfileComponent } from './khim-profile/khim-profile.component';
 import { BehzadProfileComponent } from './behzad-profile/behzad-profile.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ShreyaProfileComponent } from './shreya-profile/shreya-profile.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
 	{ path: 'our-team', component: OurTeamComponent },
 	{ path: 'our-team/khim', component: KhimProfileComponent},
 	{ path: 'our-team/behzad', component: BehzadProfileComponent},
+	{ path: 'our-team/shreya', component: ShreyaProfileComponent},
 	{ path: '**', component: PageNotFoundComponent }
 ];
 
