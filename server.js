@@ -15,8 +15,8 @@ buyandsell.use('/api', api);
 buyandsell.get('*', (req,res) => {
 	res.sendFile(path.join(__dirname,'dist/buyandsell/index.html'));
 });
-
+const host = '0.0.0.0';
 const port = process.env.PORT || '3000';
-buyandsell.listen(port, () => console.log(`Running on localhost :${port}`));
+buyandsell.listen(port,host, () => console.log(`Running on localhost :${port}`));
 
 module.exports = buyandsell;
